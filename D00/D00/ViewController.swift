@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     var string2 : String? = nil
     var lastSum : String? = nil
     
-    @IBAction func clearButton(sender: UIButton) {
+    @IBAction func clearButton(sender: UIButton)
+    {
         string1 = nil
         oper    = nil
         string2 = nil
@@ -26,10 +27,21 @@ class ViewController: UIViewController {
             print(text)
         }
     }
+    
+    func overflow(OptString string:String?) -> Double
+    {
+        var nb : Double
+        if let res = string {
+            nb = Double(res)!
+                return (nb)
+        }
+        return (-42)
+    }
 
-    func calcul(Number1 nbr1:String?,Operator oper:String?,Number2 nbr2:String?) -> String {
-        let nb1 : Double = Double(nbr1!)!
-        let nb2 : Double = Double(nbr2!)!
+    func calcul(Number1 nbr1:String?,Operator oper:String?,Number2 nbr2:String?) -> String
+    {
+        let nb1 : Double = overflow(OptString: nbr1)
+        let nb2 : Double = overflow(OptString: nbr2)
         var sum : Double = 0
         if let op = oper{
                 switch op {
@@ -55,91 +67,109 @@ class ViewController: UIViewController {
         return ("Error")
     }
     
-    @IBAction func getSumButton(sender: UIButton) {
+    @IBAction func getSumButton(sender: UIButton)
+    {
         if let text = sender.titleLabel?.text{
             print(text)
         }
-        if string1 != nil && string2 != nil && oper != nil{
-        let sum = calcul(Number1: string1, Operator: oper, Number2: string2)
-        outputLabel.text = sum
-        lastSum = String(sum)
-        string1 = nil
-        oper = nil
-        string2 = nil
+        
+        if string1 != nil && string2 != nil && oper != nil
+        {
+            let sum = calcul(Number1: string1, Operator: oper, Number2: string2)
+            outputLabel.text = sum
+            lastSum = String(sum)
+            string1 = lastSum
+            oper = nil
+            string2 = nil
         }
     }
     
-    @IBAction func negButton(sender: UIButton) {
+    @IBAction func negButton(sender: UIButton)
+    {
         if let text = sender.titleLabel?.text{
             print(text)
         }
-        if string2 == nil{
-            if string1 != nil{
+        if string2 == nil
+        {
+            if string1 != nil
+            {
                 var nb = Double(string1!)!
-                nb = nb * -1
-                string1 = String(nb)
-                outputLabel.text = string1
+                if nb != 0
+                {
+                    nb = nb * -1
+                    string1 = String(nb)
+                    outputLabel.text = string1
+                }
             }
         }
-        else{
-            var nb = Double(string2!)!
-            nb = nb * -1
-            string2 = String(nb)
-            outputLabel.text = string2
+        else
+        {
+            if var nb = Double(string2!){
+                nb = nb * -1
+                string2 = String(nb)
+                outputLabel.text = string2
+            }
         }
     }
-    @IBAction func operatorButton(sender: UIButton) {
+    
+    @IBAction func operatorButton(sender: UIButton)
+    {
+        var nextOperator : String
+        
+        if let str = sender.titleLabel?.text
+        {
+            nextOperator = str
+            print(str)
 
-        if oper == nil{
-            if let str = sender.titleLabel?.text{
-                oper = str
-                print(str)
-            }
-        }
-        else{
-            if string1 != nil && string2 != nil{
-                
-            let res = calcul(Number1: string1, Operator: oper, Number2: string2)
+            if string1 != nil && string2 != nil
+            {
+                let res = calcul(Number1: string1, Operator: oper, Number2: string2)
                 outputLabel.text = res
-                if let str = sender.titleLabel?.text{
-                oper = str
                 string1 = String(res)
                 string2 = nil
-                print(str)
-                }
             }
+            oper = nextOperator
         }
     }
-    @IBAction func numberButton(sender: UIButton) {
-        if let text = sender.titleLabel?.text {
-            if  oper != nil{
-                if string2 == nil{
+    
+    @IBAction func numberButton(sender: UIButton)
+    {
+        if let text = sender.titleLabel?.text
+        {
+            if  oper != nil
+            {
+                if string2 == nil
+                {
                     string2 = text
                 }
-                else{
+                else
+                {
                     string2 = string2! + text
                 }
                 outputLabel.text = string2
             }
-            else {
-                if string1 == nil{
-                    if lastSum != nil{
-                        string1 = lastSum
+            else
+            {
+                if string1 == nil
+                {
+                    string1 = text
+                }
+                else
+                {
+                    if lastSum != nil
+                    {
                         lastSum = nil
-                        outputLabel.text = string1
-                    }
-                    else{
                         string1 = text
                     }
-                }
-                else{
-                    string1 = string1! + text
+                    else
+                    {
+                        string1 = string1! + text
+                    }
                 }
                 outputLabel.text = string1
             }
             print(text)
         }
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
