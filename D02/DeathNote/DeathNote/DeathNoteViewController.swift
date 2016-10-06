@@ -29,16 +29,15 @@ class DeathNoteViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("myCell")
-        cell?.textLabel?.text = self.tableVictim[indexPath.row].name
-        cell?.detailTextLabel?.text = self.tableVictim[indexPath.row].death
+        let cell = tableView.dequeueReusableCellWithIdentifier("myCell") as? MyCell
+        cell?.aVictim = self.tableVictim[indexPath.row]
         return cell!
     }
     
     @IBAction override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "addSegue"{
             if let dst = segue.destinationViewController as? addDeathViewController{
-                dst.msg = "Bonjour!"
+                dst.title? = "Bonjour!"
             }
         }
     }

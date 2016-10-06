@@ -20,16 +20,31 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
+                  symbolName = "DeathNote.addDeathViewController.__deallocating_deinit"
+                  moduleName = "DeathNote"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Owee/Desktop/piscine_swift/D02/DeathNote/DeathNote/addDeathViewController.swift"
+                  timestampString = "497434137.038282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
                   symbolName = "DeathNote.addDeathViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; DeathNote.addDeathViewController"
                   moduleName = "DeathNote"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Owee/Desktop/piscine_swift/D02/DeathNote/DeathNote/addDeathViewController.swift"
-                  timestampString = "497393674.266101"
+                  timestampString = "497434137.042125"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "77">
+                  offsetFromSymbolStart = "107">
                </Location>
                <Location
                   shouldBeEnabled = "No"
@@ -39,12 +54,12 @@
                   moduleName = "DeathNote"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Owee/Desktop/piscine_swift/D02/DeathNote/DeathNote/addDeathViewController.swift"
-                  timestampString = "497393674.266463"
+                  timestampString = "497434137.042273"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "37">
+                  offsetFromSymbolStart = "46">
                </Location>
             </Locations>
          </BreakpointContent>

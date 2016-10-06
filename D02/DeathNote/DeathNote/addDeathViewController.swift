@@ -10,20 +10,39 @@ import UIKit
 
 class addDeathViewController: UIViewController {
 
-    @IBOutlet var msgLabel: UILabel!
-    var msg : String = "Toto"
-    var troll : Victim = Victim(name: "troll", date: NSDate(), death: "Je te troll je te dit!")
-    
+    @IBOutlet var nameTextField: UITextField!
+    @IBOutlet var hideLabel: UILabel!
+    @IBOutlet var datePicker: UIDatePicker!
+    @IBOutlet var deathTextField: UITextField!
+
     override func viewDidLoad() {
-        self.msgLabel?.text = self.msg
+        self.hideLabel?.text = nil
+        self.deathTextField?.text = nil
+        self.nameTextField?.placeholder = "Who ?"
+        self.nameTextField?.text = nil
+    }
+    
+    func createNewVictim() -> Bool
+    {
+            return self.deathTextField?.text != nil && self.nameTextField?.text != nil
     }
     
     @IBAction override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "backSegue"{
-            if let dst = segue.destinationViewController as? DeathNoteViewController{
-                dst.tableVictim.append(self.troll)
-                print("test")
+            if let dst = segue.destinationViewController as? DeathNoteViewController
+            {
+                if createNewVictim(){
+                    let new = Victim(name: (self.nameTextField?.text!)!, date: self.datePicker.date, death: (self.deathTextField?.text!)!)
+                    dst.tableVictim.append(new)
+                }
             }
+        }
+    }
+    
+    @IBAction func nextAction(sender: AnyObject) {
+        if let name = self.nameTextField?.text{
+            self.hideLabel?.text = "Ok let's kill \(name)"
+            self.deathTextField?.placeholder = "Tell me How ?"
         }
     }
     @IBAction func sendButton(sender: AnyObject) {

@@ -14,6 +14,7 @@
 		DEDCFE1D1DA59076005CDC64 /* DeathNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCFE1C1DA59076005CDC64 /* DeathNoteViewController.swift */; };
 		DEDCFE1F1DA5913C005CDC64 /* Victim.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCFE1E1DA5913C005CDC64 /* Victim.swift */; };
 		DEDCFE211DA599B0005CDC64 /* addDeathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCFE201DA599AF005CDC64 /* addDeathViewController.swift */; };
+		DEDCFE231DA647B5005CDC64 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCFE221DA647B5005CDC64 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DEDCFE1C1DA59076005CDC64 /* DeathNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathNoteViewController.swift; sourceTree = "<group>"; };
 		DEDCFE1E1DA5913C005CDC64 /* Victim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Victim.swift; sourceTree = "<group>"; };
 		DEDCFE201DA599AF005CDC64 /* addDeathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addDeathViewController.swift; sourceTree = "<group>"; };
+		DEDCFE221DA647B5005CDC64 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DEDCFE1E1DA5913C005CDC64 /* Victim.swift */,
 				DEDCFE081DA53BE3005CDC64 /* AppDelegate.swift */,
 				DEDCFE0C1DA53BE3005CDC64 /* Main.storyboard */,
+				DEDCFE221DA647B5005CDC64 /* MyCell.swift */,
 				DEDCFE201DA599AF005CDC64 /* addDeathViewController.swift */,
 				DEDCFE0F1DA53BE3005CDC64 /* Assets.xcassets */,
 				DEDCFE111DA53BE3005CDC64 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDCFE1D1DA59076005CDC64 /* DeathNoteViewController.swift in Sources */,
+				DEDCFE231DA647B5005CDC64 /* MyCell.swift in Sources */,
 				DEDCFE091DA53BE3005CDC64 /* AppDelegate.swift in Sources */,
 				DEDCFE1F1DA5913C005CDC64 /* Victim.swift in Sources */,
 				DEDCFE211DA599B0005CDC64 /* addDeathViewController.swift in Sources */,
