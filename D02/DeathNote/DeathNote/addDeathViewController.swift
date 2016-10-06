@@ -11,20 +11,22 @@ import UIKit
 class addDeathViewController: UIViewController {
 
     @IBOutlet var nameTextField: UITextField!
+    
     @IBOutlet var hideLabel: UILabel!
     @IBOutlet var datePicker: UIDatePicker!
-    @IBOutlet var deathTextField: UITextField!
+    @IBOutlet var deathTextField: UITextView!
 
     override func viewDidLoad() {
-        self.hideLabel?.text = nil
         self.deathTextField?.text = nil
+        self.deathTextField?.layer.borderWidth = 1
+        self.deathTextField?.layer.borderColor = UIColor.blackColor().CGColor
         self.nameTextField?.placeholder = "Who ?"
         self.nameTextField?.text = nil
     }
     
     func createNewVictim() -> Bool
     {
-            return self.deathTextField?.text != nil && self.nameTextField?.text != nil
+            return self.deathTextField?.text != "" && self.nameTextField?.text != ""
     }
     
     @IBAction override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -39,12 +41,6 @@ class addDeathViewController: UIViewController {
         }
     }
     
-    @IBAction func nextAction(sender: AnyObject) {
-        if let name = self.nameTextField?.text{
-            self.hideLabel?.text = "Ok let's kill \(name)"
-            self.deathTextField?.placeholder = "Tell me How ?"
-        }
-    }
     @IBAction func sendButton(sender: AnyObject) {
         performSegueWithIdentifier("backSegue", sender: self)
     }

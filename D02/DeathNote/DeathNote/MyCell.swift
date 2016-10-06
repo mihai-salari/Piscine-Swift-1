@@ -9,19 +9,21 @@
 import UIKit
 
 class MyCell: UITableViewCell {
-    @IBOutlet var descriptionLabel: UITextView!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
     
     
     var aVictim : Victim?
         {
         didSet{
             if let v = aVictim{
+                let date = NSDateFormatter()
+                date.dateStyle = .MediumStyle
                 nameLabel?.text = v.name
-                dateLabel?.text = v.date.description
+                dateLabel?.text = date.stringFromDate(v.date)
                 descriptionLabel?.text = v.death
-                                }
                 }
+            }
         }
 }

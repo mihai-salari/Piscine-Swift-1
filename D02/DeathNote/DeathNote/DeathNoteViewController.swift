@@ -17,7 +17,11 @@ class DeathNoteViewController: UIViewController, UITableViewDelegate, UITableVie
         self.tableVictim.append(Victim(name: "Mario", date: NSDate(), death: "By Bowser"))
         self.tableVictim.append(Victim(name: "Eric Cartman", date: NSDate(), death: "By Kyle Browlovsky"))
         self.tableVictim.append(Victim(name: "Luigi", date: NSDate(), death: "By Bowser (again)"))
-        print(self.tableVictim)
+    }
+    
+    override func viewDidLoad() {
+        deathNoteTableView.rowHeight = UITableViewAutomaticDimension
+        deathNoteTableView.estimatedRowHeight = 140
     }
     
     override func viewWillAppear(animated: Bool) {

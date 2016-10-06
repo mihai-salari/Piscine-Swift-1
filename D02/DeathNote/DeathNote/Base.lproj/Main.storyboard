@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Death Note-->
@@ -28,54 +29,40 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eDT-UI-3KV" userLabel="CellStackView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
-                                                    <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dWt-Fx-0Lr" userLabel="labelView">
-                                                            <rect key="frame" x="0.0" y="0.0" width="600" height="2"/>
-                                                            <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0M-Ok-M58">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="2"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sw-hI-MuI">
-                                                                    <rect key="frame" x="300" y="0.0" width="300" height="2"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" constant="261" id="fSI-fN-UrF"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                            </subviews>
-                                                        </stackView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ein-g4-85O" userLabel="death view">
-                                                            <rect key="frame" x="0.0" y="2" width="600" height="98"/>
-                                                            <subviews>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="The description of the death" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8K-8J-Gwx">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="98"/>
-                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                                </textView>
-                                                            </subviews>
-                                                        </stackView>
-                                                    </subviews>
-                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFa-DB-X5g">
+                                                    <rect key="frame" x="8" y="8" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYP-OM-7Cn">
+                                                    <rect key="frame" x="550" y="8" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udL-hY-2UJ">
+                                                    <rect key="frame" x="8" y="37" width="584" height="55"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="eDT-UI-3KV" firstAttribute="top" secondItem="JPg-Tc-C9d" secondAttribute="top" id="9fe-Bi-qCf"/>
-                                                <constraint firstItem="eDT-UI-3KV" firstAttribute="leading" secondItem="JPg-Tc-C9d" secondAttribute="leading" id="P85-mM-Vql"/>
-                                                <constraint firstItem="eDT-UI-3KV" firstAttribute="height" secondItem="JPg-Tc-C9d" secondAttribute="height" id="Tjp-lU-L6q"/>
-                                                <constraint firstItem="eDT-UI-3KV" firstAttribute="width" secondItem="JPg-Tc-C9d" secondAttribute="width" id="pAC-jh-4ET"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="leading" secondItem="kFa-DB-X5g" secondAttribute="leading" id="0pV-2O-SR8"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="top" secondItem="JPg-Tc-C9d" secondAttribute="topMargin" constant="29" id="2cD-5s-AlK"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="top" secondItem="kFa-DB-X5g" secondAttribute="bottom" constant="8" symbolic="YES" id="4c3-BV-3Q3"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="width" secondItem="JPg-Tc-C9d" secondAttribute="width" constant="-16" id="7Xo-s7-7Kf"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="leading" secondItem="JPg-Tc-C9d" secondAttribute="leadingMargin" id="SFm-ov-oIl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="udL-hY-2UJ" secondAttribute="bottom" id="Tm0-oQ-T7B"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="trailing" secondItem="mYP-OM-7Cn" secondAttribute="trailing" id="YVc-cE-gj8"/>
+                                                <constraint firstItem="udL-hY-2UJ" firstAttribute="top" secondItem="mYP-OM-7Cn" secondAttribute="bottom" constant="8" symbolic="YES" id="xSR-jK-0vB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateLabel" destination="5sw-hI-MuI" id="OdT-Dt-y3s"/>
-                                            <outlet property="descriptionLabel" destination="y8K-8J-Gwx" id="ANd-r7-JDw"/>
-                                            <outlet property="nameLabel" destination="S0M-Ok-M58" id="KBK-L2-13o"/>
+                                            <outlet property="dateLabel" destination="mYP-OM-7Cn" id="IPP-kp-Ph0"/>
+                                            <outlet property="descriptionLabel" destination="udL-hY-2UJ" id="fPh-xU-0EA"/>
+                                            <outlet property="nameLabel" destination="kFa-DB-X5g" id="26W-ik-pll"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -121,47 +108,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleAspectFit" verticalCompressionResistancePriority="734" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1T0-4J-pG8">
-                                <rect key="frame" x="0.0" y="124" width="600" height="216"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                <date key="date" timeIntervalSinceReferenceDate="497429223.17632598">
-                                    <!--2016-10-06 06:47:03 +0000-->
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4yI-YU-26W">
+                                <rect key="frame" x="20" y="241" width="560" height="283"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Who ?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZJP-aQ-yBU">
+                                <rect key="frame" x="20" y="90" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xgd-4E-NPA">
+                                <rect key="frame" x="20" y="133" width="560" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="bYr-7S-fH2"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="497450266.86052197">
+                                    <!--2016-10-06 12:37:46 +0000-->
                                 </date>
                             </datePicker>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6r-Pt-Y3z">
-                                <rect key="frame" x="0.5" y="72" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="nextAction:" destination="xRt-pt-Yn5" eventType="editingDidEnd" id="IN4-hq-jGb"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8r-f8-ULG">
-                                <rect key="frame" x="0.0" y="363" width="600" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2K9-Wf-Yw7">
-                                <rect key="frame" x="0.5" y="436" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2K9-Wf-Yw7" firstAttribute="top" secondItem="V8r-f8-ULG" secondAttribute="bottom" constant="52" id="1Z4-Vx-ZBx"/>
-                            <constraint firstItem="V8r-f8-ULG" firstAttribute="centerX" secondItem="GW1-n0-NVw" secondAttribute="centerX" id="OCC-nG-5Yt"/>
-                            <constraint firstItem="2K9-Wf-Yw7" firstAttribute="width" secondItem="GW1-n0-NVw" secondAttribute="width" id="P99-xs-TZd"/>
-                            <constraint firstItem="V8r-f8-ULG" firstAttribute="width" secondItem="GW1-n0-NVw" secondAttribute="width" id="T3G-9R-Bne"/>
-                            <constraint firstItem="1T0-4J-pG8" firstAttribute="top" secondItem="p6r-Pt-Y3z" secondAttribute="bottom" constant="22" id="T4w-qx-I63"/>
-                            <constraint firstItem="p6r-Pt-Y3z" firstAttribute="centerX" secondItem="GW1-n0-NVw" secondAttribute="centerX" id="TMS-Ua-OsX"/>
-                            <constraint firstItem="V8r-f8-ULG" firstAttribute="top" secondItem="1T0-4J-pG8" secondAttribute="bottom" constant="23" id="Teo-c4-IpW"/>
-                            <constraint firstItem="p6r-Pt-Y3z" firstAttribute="width" secondItem="GW1-n0-NVw" secondAttribute="width" id="bS5-hR-sn5"/>
-                            <constraint firstItem="2K9-Wf-Yw7" firstAttribute="centerX" secondItem="GW1-n0-NVw" secondAttribute="centerX" id="d6a-po-T9t"/>
-                            <constraint firstItem="1T0-4J-pG8" firstAttribute="centerX" secondItem="GW1-n0-NVw" secondAttribute="centerX" id="dFL-34-K1d"/>
-                            <constraint firstItem="1T0-4J-pG8" firstAttribute="top" secondItem="Lrk-0P-Aux" secondAttribute="bottom" constant="60" id="kGY-Z3-jat"/>
-                            <constraint firstItem="1T0-4J-pG8" firstAttribute="width" secondItem="GW1-n0-NVw" secondAttribute="width" id="zCc-wl-eqk"/>
+                            <constraint firstItem="ZJP-aQ-yBU" firstAttribute="top" secondItem="Lrk-0P-Aux" secondAttribute="bottom" constant="26" id="4NT-Ud-G5C"/>
+                            <constraint firstItem="Xgd-4E-NPA" firstAttribute="top" secondItem="ZJP-aQ-yBU" secondAttribute="bottom" constant="13" id="FiK-rJ-AG6"/>
+                            <constraint firstItem="ZJP-aQ-yBU" firstAttribute="trailing" secondItem="Xgd-4E-NPA" secondAttribute="trailing" id="K2n-22-FNN"/>
+                            <constraint firstItem="4yI-YU-26W" firstAttribute="leading" secondItem="Xgd-4E-NPA" secondAttribute="leading" id="LTz-PF-0Ol"/>
+                            <constraint firstItem="ZJP-aQ-yBU" firstAttribute="leading" secondItem="GW1-n0-NVw" secondAttribute="leadingMargin" id="OeS-Db-OY3"/>
+                            <constraint firstItem="4yI-YU-26W" firstAttribute="top" secondItem="Xgd-4E-NPA" secondAttribute="bottom" constant="33" id="Qa0-qA-kHG"/>
+                            <constraint firstItem="ZJP-aQ-yBU" firstAttribute="leading" secondItem="Xgd-4E-NPA" secondAttribute="leading" id="g9r-aC-YQM"/>
+                            <constraint firstItem="4yI-YU-26W" firstAttribute="trailing" secondItem="Xgd-4E-NPA" secondAttribute="trailing" id="mod-uw-qwu"/>
+                            <constraint firstItem="lh7-uh-mdG" firstAttribute="top" secondItem="4yI-YU-26W" secondAttribute="bottom" constant="32" id="xHu-HD-CIx"/>
+                            <constraint firstItem="ZJP-aQ-yBU" firstAttribute="trailing" secondItem="GW1-n0-NVw" secondAttribute="trailingMargin" id="zgK-pV-rtV"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -178,10 +157,9 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="datePicker" destination="1T0-4J-pG8" id="vMe-XU-2fO"/>
-                        <outlet property="deathTextField" destination="2K9-Wf-Yw7" id="Xmw-Du-SZ0"/>
-                        <outlet property="hideLabel" destination="V8r-f8-ULG" id="mt0-Fc-cEP"/>
-                        <outlet property="nameTextField" destination="p6r-Pt-Y3z" id="60J-aq-V5r"/>
+                        <outlet property="datePicker" destination="Xgd-4E-NPA" id="Ac1-ZK-97e"/>
+                        <outlet property="deathTextField" destination="4yI-YU-26W" id="H7k-OD-aef"/>
+                        <outlet property="nameTextField" destination="ZJP-aQ-yBU" id="p7N-ey-cK7"/>
                         <segue destination="nBH-h9-sCQ" kind="unwind" identifier="backSegue" unwindAction="prepareForSegue:sender:" id="buJ-41-mS8"/>
                     </connections>
                 </viewController>
