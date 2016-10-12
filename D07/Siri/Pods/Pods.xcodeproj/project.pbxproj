@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E92221CFD582CCE4FF4849A341DDADB /* ForecastIO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */; };
+		1280D55F9D37465E498D811BD3569372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1C3BE04F99E4C48A05C422C74DF69B22 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */; };
+		20B394D2E0AA88F47476DE47413550C9 /* Pods-Siri-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6713BAF45E979F58CBB99F3FD9345B /* Pods-Siri-dummy.m */; };
+		349CFB0649A62F2430EEB0F20F839FC4 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */; };
+		51555E526BFD81D92D28CE98DF03DA0D /* DataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */; };
+		54340BBC5C36892B26AE6C08679BB54E /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425878C620F423582EAAF95112D3106 /* Units.swift */; };
+		583218C128439C0247DA43154CFF140C /* ForecastIOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */; };
+		7DF76054315889A09D0E9934CADBD213 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */; };
+		84F6BD411FD01AF8476454010AAEE596 /* ForecastIO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CFD5813EFC96BD022C118D5BCCD2A6D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */; };
+		A49E34DF0EA3267C0E0E09351B693FD4 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */; };
+		B11244D5CC00A15BF7B74548F2497F7A /* Pods-Siri-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AB87E77DAE42A3903E9192AD8A7710 /* Pods-Siri-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D69445CF794ED46C9AEE8E290D79F895 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */; };
+		E02B1D5CA5F0764BCE8925815BA1A9A6 /* RequestMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */; };
+		ECD08067CD722300630FD364FDA4D2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EF0016F0532480C5253AE3E09674C374 /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */; };
+		F21F4E274B45FC318D4BE058354E9F41 /* Precipitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */; };
+		F6A8C157BF0AE954C08D7BEE5C5B8674 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F98B57224C5C654351C7DA7798743B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA92F95C3959CAF02257A4291B349224;
+			remoteInfo = ForecastIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F67E5DE442994A91A19C00DED50133 /* Pods-Siri-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Siri-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DF086D5B1D99576AE66A2B8929874CB /* ForecastIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForecastIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAD5757066242AD3E1EE18BAA97E317 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestMetadata.swift; path = Source/RequestMetadata.swift; sourceTree = "<group>"; };
+		1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Source/Alert.swift; sourceTree = "<group>"; };
+		40C71B82F1D334970E1B76F7646D0B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E65B63CFCCAB246C0DAB6545451BB3C /* ForecastIO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForecastIO-prefix.pch"; sourceTree = "<group>"; };
+		5425878C620F423582EAAF95112D3106 /* Units.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Units.swift; path = Source/Units.swift; sourceTree = "<group>"; };
+		54C8EBB3FFE3324111A719A6B1BDB716 /* Pods-Siri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Siri.debug.xcconfig"; sourceTree = "<group>"; };
+		57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForecastIO-umbrella.h"; sourceTree = "<group>"; };
+		5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		5E47C300FF31248FE15A00F5FC580164 /* ForecastIO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ForecastIO.modulemap; sourceTree = "<group>"; };
+		699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataBlock.swift; path = Source/DataBlock.swift; sourceTree = "<group>"; };
+		6CEA547B9F537C19281ECFAE8A3499F5 /* Pods-Siri-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Siri-acknowledgements.markdown"; sourceTree = "<group>"; };
+		856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Precipitation.swift; path = Source/Precipitation.swift; sourceTree = "<group>"; };
+		89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Source/Flag.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE9F6A38DEB7CCC6F5A8AD9C4B61804 /* Pods-Siri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Siri.release.xcconfig"; sourceTree = "<group>"; };
+		AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ForecastIO.xcconfig; sourceTree = "<group>"; };
+		B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastIOError.swift; path = Source/ForecastIOError.swift; sourceTree = "<group>"; };
+		B4AB87E77DAE42A3903E9192AD8A7710 /* Pods-Siri-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Siri-umbrella.h"; sourceTree = "<group>"; };
+		BD6713BAF45E979F58CBB99F3FD9345B /* Pods-Siri-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Siri-dummy.m"; sourceTree = "<group>"; };
+		C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Source/Language.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C6C2B042C6C78FC2A204EBCC4DCC50 /* Pods-Siri-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Siri-resources.sh"; sourceTree = "<group>"; };
+		DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DarkSkyClient.swift; path = Source/DarkSkyClient.swift; sourceTree = "<group>"; };
+		E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = Source/Forecast.swift; sourceTree = "<group>"; };
+		E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Icon.swift; path = Source/Icon.swift; sourceTree = "<group>"; };
+		E1F93F85CBF5ECA0069A36859032EF9B /* Pods_Siri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Siri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataPoint.swift; path = Source/DataPoint.swift; sourceTree = "<group>"; };
+		F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ForecastIO-dummy.m"; sourceTree = "<group>"; };
+		F63DF636B57CDAAE3F971D7F117FA052 /* Pods-Siri-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Siri-frameworks.sh"; sourceTree = "<group>"; };
+		FE9ECC15517D953878AA868F47F90A02 /* Pods-Siri.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Siri.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E078FB849C95DC5853A81DF2B6F8B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1280D55F9D37465E498D811BD3569372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A777B1F9065A7CB954388CD689F60B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD08067CD722300630FD364FDA4D2D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AAE1EA0AC6541309B156A89E2E8298 /* ForecastIO */ = {
+			isa = PBXGroup;
+			children = (
+				1F46572221E8D841270774FE81EBE8E5 /* Alert.swift */,
+				DCE83C53E4A09349A5AC3D70DF3B34A8 /* DarkSkyClient.swift */,
+				699F7AE1982B6D2FE1B9C1A9C41FD479 /* DataBlock.swift */,
+				E27742FAA7A8F6B2ACE859A1D6FA2072 /* DataPoint.swift */,
+				89DB504AB8A9BB7EFF6C5DBE5587E4F8 /* Flag.swift */,
+				E07A8115FAEB63C3AA42F246481865E0 /* Forecast.swift */,
+				B448DB0F005946D23B80C24251590FCA /* ForecastIOError.swift */,
+				E145886EFD7D671FA2580E8AB94D135E /* Icon.swift */,
+				C531BFD697DD449A65ECF896F71FAC09 /* Language.swift */,
+				856CEBDD434EA4F898D236A38C3052CE /* Precipitation.swift */,
+				1D37E06F51A26365713A950B23EF9558 /* RequestMetadata.swift */,
+				5B6902705D11E7B858D13940CBD8B4FD /* Result.swift */,
+				5425878C620F423582EAAF95112D3106 /* Units.swift */,
+				C1E5024B01F1AB57F31EF3435E953A62 /* Support Files */,
+			);
+			path = ForecastIO;
+			sourceTree = "<group>";
+		};
+		223F1515A8E3251C88060C9F1A4F26CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16AAE1EA0AC6541309B156A89E2E8298 /* ForecastIO */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4212BA125BE0BED498F3F4F6E328E0A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				448536B31A8E59907375EF68CBCAF605 /* Pods-Siri */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		448536B31A8E59907375EF68CBCAF605 /* Pods-Siri */ = {
+			isa = PBXGroup;
+			children = (
+				0FAD5757066242AD3E1EE18BAA97E317 /* Info.plist */,
+				FE9ECC15517D953878AA868F47F90A02 /* Pods-Siri.modulemap */,
+				6CEA547B9F537C19281ECFAE8A3499F5 /* Pods-Siri-acknowledgements.markdown */,
+				01F67E5DE442994A91A19C00DED50133 /* Pods-Siri-acknowledgements.plist */,
+				BD6713BAF45E979F58CBB99F3FD9345B /* Pods-Siri-dummy.m */,
+				F63DF636B57CDAAE3F971D7F117FA052 /* Pods-Siri-frameworks.sh */,
+				D1C6C2B042C6C78FC2A204EBCC4DCC50 /* Pods-Siri-resources.sh */,
+				B4AB87E77DAE42A3903E9192AD8A7710 /* Pods-Siri-umbrella.h */,
+				54C8EBB3FFE3324111A719A6B1BDB716 /* Pods-Siri.debug.xcconfig */,
+				9DE9F6A38DEB7CCC6F5A8AD9C4B61804 /* Pods-Siri.release.xcconfig */,
+			);
+			name = "Pods-Siri";
+			path = "Target Support Files/Pods-Siri";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				223F1515A8E3251C88060C9F1A4F26CA /* Pods */,
+				805E540BC149FC0FB7B19A4419537CCA /* Products */,
+				4212BA125BE0BED498F3F4F6E328E0A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		805E540BC149FC0FB7B19A4419537CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF086D5B1D99576AE66A2B8929874CB /* ForecastIO.framework */,
+				E1F93F85CBF5ECA0069A36859032EF9B /* Pods_Siri.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E5024B01F1AB57F31EF3435E953A62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E47C300FF31248FE15A00F5FC580164 /* ForecastIO.modulemap */,
+				AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */,
+				F3607351BF7AE99FADCD74B66E195D19 /* ForecastIO-dummy.m */,
+				4E65B63CFCCAB246C0DAB6545451BB3C /* ForecastIO-prefix.pch */,
+				57D1703D9031689C17F26344C239FDF5 /* ForecastIO-umbrella.h */,
+				40C71B82F1D334970E1B76F7646D0B57 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ForecastIO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		375448798A547F8779DC3B1FAE083C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6BD411FD01AF8476454010AAEE596 /* ForecastIO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49ED783AF8460057CF7F427582576AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11244D5CC00A15BF7B74548F2497F7A /* Pods-Siri-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54DA56E0321B2348428CAF87FE09FA9E /* Pods-Siri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3EA1FF4A4DD18BA98F1BBF22A188F1 /* Build configuration list for PBXNativeTarget "Pods-Siri" */;
+			buildPhases = (
+				0CE94EB292BA50FF3AA10F71347EE8AC /* Sources */,
+				5E078FB849C95DC5853A81DF2B6F8B87 /* Frameworks */,
+				E49ED783AF8460057CF7F427582576AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490AD896DC68D83F1AACA7A5AE71D17C /* PBXTargetDependency */,
+			);
+			name = "Pods-Siri";
+			productName = "Pods-Siri";
+			productReference = E1F93F85CBF5ECA0069A36859032EF9B /* Pods_Siri.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA92F95C3959CAF02257A4291B349224 /* ForecastIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364066AEE62966119749271F00738174 /* Build configuration list for PBXNativeTarget "ForecastIO" */;
+			buildPhases = (
+				5B1FF9B2CB109FFD73F660438FFAA065 /* Sources */,
+				A777B1F9065A7CB954388CD689F60B1E /* Frameworks */,
+				375448798A547F8779DC3B1FAE083C66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForecastIO;
+			productName = ForecastIO;
+			productReference = 0DF086D5B1D99576AE66A2B8929874CB /* ForecastIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 805E540BC149FC0FB7B19A4419537CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA92F95C3959CAF02257A4291B349224 /* ForecastIO */,
+				54DA56E0321B2348428CAF87FE09FA9E /* Pods-Siri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE94EB292BA50FF3AA10F71347EE8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B394D2E0AA88F47476DE47413550C9 /* Pods-Siri-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1FF9B2CB109FFD73F660438FFAA065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF76054315889A09D0E9934CADBD213 /* Alert.swift in Sources */,
+				EF0016F0532480C5253AE3E09674C374 /* DarkSkyClient.swift in Sources */,
+				51555E526BFD81D92D28CE98DF03DA0D /* DataBlock.swift in Sources */,
+				349CFB0649A62F2430EEB0F20F839FC4 /* DataPoint.swift in Sources */,
+				F6A8C157BF0AE954C08D7BEE5C5B8674 /* Flag.swift in Sources */,
+				D69445CF794ED46C9AEE8E290D79F895 /* Forecast.swift in Sources */,
+				0E92221CFD582CCE4FF4849A341DDADB /* ForecastIO-dummy.m in Sources */,
+				583218C128439C0247DA43154CFF140C /* ForecastIOError.swift in Sources */,
+				A49E34DF0EA3267C0E0E09351B693FD4 /* Icon.swift in Sources */,
+				1C3BE04F99E4C48A05C422C74DF69B22 /* Language.swift in Sources */,
+				F21F4E274B45FC318D4BE058354E9F41 /* Precipitation.swift in Sources */,
+				E02B1D5CA5F0764BCE8925815BA1A9A6 /* RequestMetadata.swift in Sources */,
+				9CFD5813EFC96BD022C118D5BCCD2A6D /* Result.swift in Sources */,
+				54340BBC5C36892B26AE6C08679BB54E /* Units.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490AD896DC68D83F1AACA7A5AE71D17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForecastIO;
+			target = BA92F95C3959CAF02257A4291B349224 /* ForecastIO */;
+			targetProxy = F98B57224C5C654351C7DA7798743B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		936E1BB2FD404DE697B85FE93276D488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C8EBB3FFE3324111A719A6B1BDB716 /* Pods-Siri.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Siri;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A80C683D49DBDC2099E7E1CDFD6FBAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE9F6A38DEB7CCC6F5A8AD9C4B61804 /* Pods-Siri.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Siri/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Siri/Pods-Siri.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Siri;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C45C373E1C10EFB7DA8F63BDA3F2F845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForecastIO/ForecastIO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForecastIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForecastIO/ForecastIO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ForecastIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0D06AD105BCA98A59E4E8A3C023B1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB67E773D560688198A693FEDF007EFF /* ForecastIO.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForecastIO/ForecastIO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForecastIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForecastIO/ForecastIO.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ForecastIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3EA1FF4A4DD18BA98F1BBF22A188F1 /* Build configuration list for PBXNativeTarget "Pods-Siri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936E1BB2FD404DE697B85FE93276D488 /* Debug */,
+				A80C683D49DBDC2099E7E1CDFD6FBAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364066AEE62966119749271F00738174 /* Build configuration list for PBXNativeTarget "ForecastIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45C373E1C10EFB7DA8F63BDA3F2F845 /* Debug */,
+				E0D06AD105BCA98A59E4E8A3C023B1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
