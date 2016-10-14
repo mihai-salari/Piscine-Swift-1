@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5872B03716E817325DF689AD /* Pods_luccasim2016_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FC3EE2BF0669D1CAA88FE7 /* Pods_luccasim2016_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		F2C2B268BE3C1FCF6215308B /* Pods_luccasim2016_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B5E14ECFE30B3D09052ED6 /* Pods_luccasim2016_Tests.framework */; };
+		C1AEAA6BD960C04F84A0C188 /* Pods_luccasim2016_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9C3F4DC47059E59B2ECF55 /* Pods_luccasim2016_Tests.framework */; };
+		F1631269D095D147B1703930 /* Pods_luccasim2016_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0B20B192D390A545A27D5A /* Pods_luccasim2016_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07FC3EE2BF0669D1CAA88FE7 /* Pods_luccasim2016_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luccasim2016_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7B59B4D66DF75C18364210 /* Pods-luccasim2016_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		13C55FEEBC0D7418CA14D04A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2432B9C38E1533AA5FDFC126 /* luccasim2016.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = luccasim2016.podspec; path = ../luccasim2016.podspec; sourceTree = "<group>"; };
+		3B0B20B192D390A545A27D5A /* Pods_luccasim2016_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luccasim2016_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* luccasim2016_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luccasim2016_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +41,12 @@
 		607FACE51AFB9204008FA782 /* luccasim2016_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luccasim2016_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F5D6CF9D7BABC0B430F229C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		80802E8D9DA6F2BAAF4E0A52 /* Pods-luccasim2016_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96A360A77C9CE836B142A23E /* Pods-luccasim2016_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example.release.xcconfig"; sourceTree = "<group>"; };
-		99FB9ED96D2D52638742224F /* luccasim2016.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = luccasim2016.podspec; path = ../luccasim2016.podspec; sourceTree = "<group>"; };
-		C8B5E14ECFE30B3D09052ED6 /* Pods_luccasim2016_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luccasim2016_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B5811D6E15EE4E952D8ACB /* Pods-luccasim2016_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FB788B60DC1D508ECFD6258A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8EDACA7BA291551A5976850A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3ABF8FC477D1A0DC9AAAD7C /* Pods-luccasim2016_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F0093DE3E0E92853A07A70 /* Pods-luccasim2016_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C32C4F5EA1DDE0E9917F6619 /* Pods-luccasim2016_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9C3F4DC47059E59B2ECF55 /* Pods_luccasim2016_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luccasim2016_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DF3D2A6EA3DB4C3CE0BC8A /* Pods-luccasim2016_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luccasim2016_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5872B03716E817325DF689AD /* Pods_luccasim2016_Example.framework in Frameworks */,
+				F1631269D095D147B1703930 /* Pods_luccasim2016_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C2B268BE3C1FCF6215308B /* Pods_luccasim2016_Tests.framework in Frameworks */,
+				C1AEAA6BD960C04F84A0C188 /* Pods_luccasim2016_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BF45B2C7C4D4048BE600283 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				07FC3EE2BF0669D1CAA88FE7 /* Pods_luccasim2016_Example.framework */,
-				C8B5E14ECFE30B3D09052ED6 /* Pods_luccasim2016_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for luccasim2016 */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				6661478F5824CF0517B81818 /* Pods */,
-				3BF45B2C7C4D4048BE600283 /* Frameworks */,
+				70728CB9591B6C77D97F1014 /* Pods */,
+				C6A22223C95F85DBC206E26E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,22 +132,31 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				99FB9ED96D2D52638742224F /* luccasim2016.podspec */,
-				7F5D6CF9D7BABC0B430F229C /* README.md */,
-				FB788B60DC1D508ECFD6258A /* LICENSE */,
+				2432B9C38E1533AA5FDFC126 /* luccasim2016.podspec */,
+				13C55FEEBC0D7418CA14D04A /* README.md */,
+				8EDACA7BA291551A5976850A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		6661478F5824CF0517B81818 /* Pods */ = {
+		70728CB9591B6C77D97F1014 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D7B59B4D66DF75C18364210 /* Pods-luccasim2016_Example.debug.xcconfig */,
-				96A360A77C9CE836B142A23E /* Pods-luccasim2016_Example.release.xcconfig */,
-				80802E8D9DA6F2BAAF4E0A52 /* Pods-luccasim2016_Tests.debug.xcconfig */,
-				F2B5811D6E15EE4E952D8ACB /* Pods-luccasim2016_Tests.release.xcconfig */,
+				C32C4F5EA1DDE0E9917F6619 /* Pods-luccasim2016_Example.debug.xcconfig */,
+				F6DF3D2A6EA3DB4C3CE0BC8A /* Pods-luccasim2016_Example.release.xcconfig */,
+				B3ABF8FC477D1A0DC9AAAD7C /* Pods-luccasim2016_Tests.debug.xcconfig */,
+				B4F0093DE3E0E92853A07A70 /* Pods-luccasim2016_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6A22223C95F85DBC206E26E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B20B192D390A545A27D5A /* Pods_luccasim2016_Example.framework */,
+				DC9C3F4DC47059E59B2ECF55 /* Pods_luccasim2016_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "luccasim2016_Example" */;
 			buildPhases = (
-				0027EA9D0EDD733830B467A9 /* [CP] Check Pods Manifest.lock */,
+				37A1FC366275AB0CB904D72E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				2F46E7D44226BBFED09AC609 /* [CP] Embed Pods Frameworks */,
-				E88CB43D95E2AE171F4152C6 /* [CP] Copy Pods Resources */,
+				0C2ABF8800E0E90982CA0011 /* [CP] Embed Pods Frameworks */,
+				5827F49594A6E7E236A80B50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "luccasim2016_Tests" */;
 			buildPhases = (
-				7A70B71E30AB47AC7D0FD382 /* [CP] Check Pods Manifest.lock */,
+				AC6DA8524A77EED2C6A03A7C /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				26BC38ACD383FE7F562839A1 /* [CP] Embed Pods Frameworks */,
-				3BBD2A344FB10846B5BFBA90 /* [CP] Copy Pods Resources */,
+				1953B58B304E7138F069AAAD /* [CP] Embed Pods Frameworks */,
+				4E99B1308C647919B5CD685B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,37 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0027EA9D0EDD733830B467A9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		26BC38ACD383FE7F562839A1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F46E7D44226BBFED09AC609 /* [CP] Embed Pods Frameworks */ = {
+		0C2ABF8800E0E90982CA0011 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,22 +277,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3BBD2A344FB10846B5BFBA90 /* [CP] Copy Pods Resources */ = {
+		1953B58B304E7138F069AAAD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A70B71E30AB47AC7D0FD382 /* [CP] Check Pods Manifest.lock */ = {
+		37A1FC366275AB0CB904D72E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,7 +307,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E88CB43D95E2AE171F4152C6 /* [CP] Copy Pods Resources */ = {
+		4E99B1308C647919B5CD685B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Tests/Pods-luccasim2016_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5827F49594A6E7E236A80B50 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,6 +335,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luccasim2016_Example/Pods-luccasim2016_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6DA8524A77EED2C6A03A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,7 +486,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B59B4D66DF75C18364210 /* Pods-luccasim2016_Example.debug.xcconfig */;
+			baseConfigurationReference = C32C4F5EA1DDE0E9917F6619 /* Pods-luccasim2016_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = luccasim2016/Info.plist;
@@ -499,7 +499,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96A360A77C9CE836B142A23E /* Pods-luccasim2016_Example.release.xcconfig */;
+			baseConfigurationReference = F6DF3D2A6EA3DB4C3CE0BC8A /* Pods-luccasim2016_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = luccasim2016/Info.plist;
@@ -512,7 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80802E8D9DA6F2BAAF4E0A52 /* Pods-luccasim2016_Tests.debug.xcconfig */;
+			baseConfigurationReference = B3ABF8FC477D1A0DC9AAAD7C /* Pods-luccasim2016_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -531,7 +531,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B5811D6E15EE4E952D8ACB /* Pods-luccasim2016_Tests.release.xcconfig */;
+			baseConfigurationReference = B4F0093DE3E0E92853A07A70 /* Pods-luccasim2016_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

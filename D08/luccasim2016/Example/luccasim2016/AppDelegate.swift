@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  luccasim2016
 //
-//  Created by luc on 10/14/2016.
-//  Copyright (c) 2016 luc. All rights reserved.
+//  Created by Luc on 10/14/2016.
+//  Copyright (c) 2016 Luc. All rights reserved.
 //
 
 import UIKit

@@ -13,8 +13,11 @@
 		7A47BDB578D2392E32E304545248283A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		AD493111D148D07959B9B3E94498EECE /* Pods-luccasim2016_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5365A6A60EDAE1FEC5318FDBA55227 /* Pods-luccasim2016_Example-dummy.m */; };
 		B5EFCD76564CBCDBB307D64309C4FB5F /* Pods-luccasim2016_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E8DFA4423DD68245287E35E8321556 /* Pods-luccasim2016_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B62E6A55CF75B9CDBEEF2ED946087EBD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B428B99A0E191D4757AA515D03269CD /* ReplaceMe.swift */; };
 		C7CA797EEF554E7D836C792DA30575F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DEEC28251DB0CCAA00CDF78B /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEEC28231DB0CCAA00CDF78B /* article.xcdatamodeld */; };
+		DEEC28281DB0CEA400CDF78B /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC28261DB0CEA400CDF78B /* Article+CoreDataProperties.swift */; };
+		DEEC28291DB0CEA400CDF78B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC28271DB0CEA400CDF78B /* Article.swift */; };
+		DEEC282B1DB0D69D00CDF78B /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC282A1DB0D69D00CDF78B /* ArticleManager.swift */; };
 		E19A262D126870F353DD29541B09169F /* luccasim2016-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 521C1714594B7FC95F18FB73594E2739 /* luccasim2016-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E50F7BD71FF07D76FC0893B41531BF2A /* luccasim2016-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF311E9894BE02D69D9717DD15595881 /* luccasim2016-dummy.m */; };
 /* End PBXBuildFile section */
@@ -40,7 +43,6 @@
 		5E70BBED1092D6DFE030EF57C57C4A2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61496D0758E071344B19A5414FC4085F /* Pods-luccasim2016_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-luccasim2016_Example.modulemap"; sourceTree = "<group>"; };
 		75F7FC950EFFA61477F84706D2021D93 /* Pods-luccasim2016_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-luccasim2016_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B428B99A0E191D4757AA515D03269CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		7C8929AC499982965ECCF2221E891D03 /* Pods-luccasim2016_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-luccasim2016_Tests-dummy.m"; sourceTree = "<group>"; };
 		80E6AE2C33261F99F5F29791DC3FFB32 /* luccasim2016.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = luccasim2016.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -57,6 +59,10 @@
 		C70AA51F8D802AE6F2D53631B1C054E1 /* Pods-luccasim2016_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-luccasim2016_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D32FF4E09A8FFCF8DD457F772C594C76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEC28241DB0CCAA00CDF78B /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		DEEC28261DB0CEA400CDF78B /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DEEC28271DB0CEA400CDF78B /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DEEC282A1DB0D69D00CDF78B /* ArticleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 		E1E8DFA4423DD68245287E35E8321556 /* Pods-luccasim2016_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-luccasim2016_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E1EC7A33E105FD584E58E28FF31CB2C0 /* Pods-luccasim2016_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-luccasim2016_Tests.modulemap"; sourceTree = "<group>"; };
 		EB4590A22EBE866EAD1D61E3A84BA2FA /* Pods-luccasim2016_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-luccasim2016_Example-resources.sh"; sourceTree = "<group>"; };
@@ -95,7 +101,10 @@
 		20EDEC63FBF0C832025FCCA2F402C98D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7B428B99A0E191D4757AA515D03269CD /* ReplaceMe.swift */,
+				DEEC28261DB0CEA400CDF78B /* Article+CoreDataProperties.swift */,
+				DEEC28271DB0CEA400CDF78B /* Article.swift */,
+				DEEC28231DB0CCAA00CDF78B /* article.xcdatamodeld */,
+				DEEC282A1DB0D69D00CDF78B /* ArticleManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -337,8 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEC28281DB0CEA400CDF78B /* Article+CoreDataProperties.swift in Sources */,
 				E50F7BD71FF07D76FC0893B41531BF2A /* luccasim2016-dummy.m in Sources */,
-				B62E6A55CF75B9CDBEEF2ED946087EBD /* ReplaceMe.swift in Sources */,
+				DEEC282B1DB0D69D00CDF78B /* ArticleManager.swift in Sources */,
+				DEEC28251DB0CCAA00CDF78B /* article.xcdatamodeld in Sources */,
+				DEEC28291DB0CEA400CDF78B /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +694,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEEC28231DB0CCAA00CDF78B /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEEC28241DB0CCAA00CDF78B /* article.xcdatamodel */,
+			);
+			currentVersion = DEEC28241DB0CCAA00CDF78B /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

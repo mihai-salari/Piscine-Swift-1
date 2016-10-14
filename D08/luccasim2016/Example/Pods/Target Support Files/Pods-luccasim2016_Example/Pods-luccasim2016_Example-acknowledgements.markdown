@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## luccasim2016
 
-Copyright (c) 2016 luc <luccasim@student.42.fr>
+Copyright (c) 2016 Luc <luccasim@student.42.fr>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

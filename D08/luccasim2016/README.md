@@ -1,6 +1,6 @@
 # luccasim2016
 
-[![CI Status](http://img.shields.io/travis/luc/luccasim2016.svg?style=flat)](https://travis-ci.org/luc/luccasim2016)
+[![CI Status](http://img.shields.io/travis/Luc/luccasim2016.svg?style=flat)](https://travis-ci.org/Luc/luccasim2016)
 [![Version](https://img.shields.io/cocoapods/v/luccasim2016.svg?style=flat)](http://cocoapods.org/pods/luccasim2016)
 [![License](https://img.shields.io/cocoapods/l/luccasim2016.svg?style=flat)](http://cocoapods.org/pods/luccasim2016)
 [![Platform](https://img.shields.io/cocoapods/p/luccasim2016.svg?style=flat)](http://cocoapods.org/pods/luccasim2016)
@@ -22,7 +22,7 @@ pod "luccasim2016"
 
 ## Author
 
-luc, luccasim@student.42.fr
+Luc, luccasim@student.42.fr
 
 ## License
 
