@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hq3-fO-PKa">
+                                <rect key="frame" x="240" y="351" width="120" height="30"/>
+                                <state key="normal" title="Request Recast"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QgS-6d-UKA"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8IU-bq-Cn5">
+                                <rect key="frame" x="56" y="285" width="488" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forecast Status" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5R-QZ-GDF">
+                                <rect key="frame" x="56" y="216" width="488" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8IU-bq-Cn5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="1Yz-Ym-JfR"/>
+                            <constraint firstItem="8IU-bq-Cn5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JJv-2j-ahm"/>
+                            <constraint firstItem="hq3-fO-PKa" firstAttribute="top" secondItem="8IU-bq-Cn5" secondAttribute="bottom" constant="36" id="N0f-Uc-KEK"/>
+                            <constraint firstItem="8IU-bq-Cn5" firstAttribute="top" secondItem="K5R-QZ-GDF" secondAttribute="bottom" constant="48" id="RBb-qL-Css"/>
+                            <constraint firstItem="hq3-fO-PKa" firstAttribute="centerX" secondItem="8IU-bq-Cn5" secondAttribute="centerX" id="RGf-QP-ehq"/>
+                            <constraint firstItem="K5R-QZ-GDF" firstAttribute="centerX" secondItem="8IU-bq-Cn5" secondAttribute="centerX" id="VeY-am-YTQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8IU-bq-Cn5" secondAttribute="trailing" constant="36" id="k6A-hd-JUb"/>
+                            <constraint firstItem="8IU-bq-Cn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n6r-az-qPf"/>
+                            <constraint firstItem="K5R-QZ-GDF" firstAttribute="width" secondItem="8IU-bq-Cn5" secondAttribute="width" id="qnh-8o-ffv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="8IU-bq-Cn5" id="WE2-qb-kl0"/>
+                        <outlet property="textLabel" destination="K5R-QZ-GDF" id="oVM-y6-09e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="448" y="437"/>
         </scene>
     </scenes>
 </document>

@@ -1,12 +1,75 @@
 PODS:
-  - ForecastIO (3.0.1)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (3.5.1)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - FMDBMigrationManager (1.4.1):
+    - FMDBMigrationManager/System (= 1.4.1)
+  - FMDBMigrationManager/System (1.4.1):
+    - FMDB/standard (>= 2.3)
+  - ForecastIO (2.1.1)
+  - JSONJoy-Swift (1.0.1)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - RecastAI (2.1.1):
+    - Alamofire
+    - JSONJoy-Swift
+  - syncano-ios (4.3.1):
+    - AFNetworking (= 3.1.0)
+    - FMDB (= 2.6)
+    - FMDBMigrationManager (= 1.4.1)
+    - Mantle (~> 2.0)
 
 DEPENDENCIES:
-  - ForecastIO
+  - Alamofire (~> 3.5.0)
+  - ForecastIO (from `https://github.com/sxg/ForecastIO.git`, branch `swift2.3`)
+  - JSONJoy-Swift (~> 1.0.1)
+  - JSQMessagesViewController
+  - RecastAI
+  - syncano-ios
+
+EXTERNAL SOURCES:
+  ForecastIO:
+    :branch: swift2.3
+    :git: https://github.com/sxg/ForecastIO.git
+
+CHECKOUT OPTIONS:
+  ForecastIO:
+    :commit: 00694917d0379e8ce17c35f3585d69c76786b44a
+    :git: https://github.com/sxg/ForecastIO.git
 
 SPEC CHECKSUMS:
-  ForecastIO: 65197bdc293e827dc74f601dc78151fc4f42b959
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  FMDBMigrationManager: d52007f328ea0665e8985ca8a33500707aef084f
+  ForecastIO: a195c8ec7bd3f23ed856fce1bbf2f141abc45dc8
+  JSONJoy-Swift: d8562a59f5d6b8e96d79949e341ffd53c7a93918
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  RecastAI: fbd30f5ee187e578613d75089054217f073d5d38
+  syncano-ios: f89c7b55f3542b90e52baaf307678bf21860ac65
 
-PODFILE CHECKSUM: d02eb0d9f4fd7d9dce06109342f6d453e67d6d1b
+PODFILE CHECKSUM: 0cea18d1a26349e91fec67f18be2d39c9e0e216b
 
 COCOAPODS: 1.0.1

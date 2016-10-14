@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Siri
 //
-//  Created by luc Casimir on 12/10/2016.
-//  Copyright © 2016 Piscine_Swift_42. All rights reserved.
+//  Created by Luc CASIMIR on 10/12/16.
+//  Copyright © 2016 Luc CASIMIR. All rights reserved.
 //
 
 import UIKit

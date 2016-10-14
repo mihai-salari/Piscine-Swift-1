@@ -6,5 +6,12 @@ target 'Siri' do
   use_frameworks!
 
   # Pods for Siri
-  pod "ForecastIO"
+  pod 'JSONJoy-Swift', '~> 1.0.1'
+  pod 'Alamofire', '~> 3.5.0'
+  pod 'RecastAI'
+  pod 'ForecastIO', :git => 'https://github.com/sxg/ForecastIO.git', :branch => 'swift2.3'
+  pod 'JSQMessagesViewController'
+  pod 'syncano-ios'  
+
+
 end
