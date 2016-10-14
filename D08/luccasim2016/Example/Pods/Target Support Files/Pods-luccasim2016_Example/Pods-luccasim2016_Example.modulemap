@@ -1,0 +1,6 @@
+framework module Pods_luccasim2016_Example {
+  umbrella header "Pods-luccasim2016_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

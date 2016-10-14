@@ -1,0 +1,16 @@
+PODS:
+  - luccasim2016 (0.1.0)
+
+DEPENDENCIES:
+  - luccasim2016 (from `../`)
+
+EXTERNAL SOURCES:
+  luccasim2016:
+    :path: ../
+
+SPEC CHECKSUMS:
+  luccasim2016: fac77c6829afcb88a1b02ba0f88bb8d8f5c9d675
+
+PODFILE CHECKSUM: 5f604fe40fcaf41016b2a6025fc27f16891605ee
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'luccasim2016_Example' do
+  pod 'luccasim2016', :path => '../'
+
+  target 'luccasim2016_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
