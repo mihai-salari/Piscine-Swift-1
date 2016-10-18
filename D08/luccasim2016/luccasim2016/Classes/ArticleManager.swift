@@ -83,7 +83,7 @@ public class ArticleManager: NSObject {
     
     public func removeArticle(article:Article)
     {
-            try managedObjectContext.deleteObject(article)
+            managedObjectContext.deleteObject(article)
     }
     
     public func save()

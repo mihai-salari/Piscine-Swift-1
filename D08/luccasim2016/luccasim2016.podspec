@@ -30,7 +30,7 @@ TODO: Projet pour la piscine D08 swift a 42.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'luccasim2016/Classes/**/*'
+  s.source_files = 'luccasim2016/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'luccasim2016' => ['luccasim2016/Assets/*.png']
